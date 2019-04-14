@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:background="#999">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#e0e0ee"
+        android:id="@+id/lyItemGradeBack"
+        >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.5"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:src="@android:drawable/ic_menu_add"
+                android:id="@+id/btnItemGradeAdd"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="qtde"
+                android:id="@+id/txtItemGradeQtde"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="estoque"
+                android:id="@+id/txtItemGradeEstoque"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Grade"
+                android:gravity="end"
+                android:layout_marginRight="2dp"
+                android:id="@+id/txtItemGradeNome"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
